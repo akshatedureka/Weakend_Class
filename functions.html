@@ -1,0 +1,128 @@
+<!--
+    function
+    ********
+        particular "business logic" called as "function"
+
+        functions used to "reuse" the business logic
+
+        the function with "partucular name" called as "named function"
+
+        the function "without name" called as anonymous function
+
+    named functions
+    ***************
+    1) function definition
+
+    2) function calling
+
+    function definition
+    *******************
+    function functionname(param1,param2,param3,.....paramn){
+        //business logic
+    }
+
+    function calling
+    ****************
+    functionname(arg1,arg2,arg3,....arg n);
+-->
+
+<!--
+<script>
+    function fun_one(){
+        return "welcome to named functions";
+    }    
+    console.log( fun_one() );
+    //welcome to named functions
+</script>
+-->
+
+
+<!--
+<script>
+    function fun_one(param1,param2,param3){
+        console.log( param1, param2, param3 );
+    }
+    fun_one("Hello_1","Hello_2","Hello_3");         //Hello_1 Hello_2 Hello_3
+    fun_one("Welcome_1","Welcome_2","Welcome_3");   //Welcome_1 Welcome_2 Welcome_3
+    fun_one();                                      //undefined undefined undefined
+    fun_one(undefined,"Hello_2");                   //undefined Hello_2 undefined
+    fun_one(null,null,null);                        //null null null
+</script>
+-->
+
+<!--
+    syntax
+    ******
+    1) function definition
+
+    2) function calling
+
+    function definition
+    *******************
+    let variablename = (param1,param2,param3,....param n)=>{
+        //business logic
+    } 
+
+    function calling
+    ****************
+    variablename(arg1,arg2,arg3,....arg n);
+-->
+
+
+<!--
+<script>
+    let var_one = ()=>{
+        return "welcome to arrow functions";
+    }
+
+    console.log( var_one() );
+    //welcome to arrow functions
+</script>
+-->
+
+
+<script>
+   let fun_one = (param1,param2,param3)=>{
+        console.log( param1, param2, param3 );
+   }
+   fun_one("Hello_1","Hello_2","Hello_3");
+   //Hello_1 Hello_2 Hello_3
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

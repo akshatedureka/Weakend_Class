@@ -1,0 +1,19 @@
+Introduction to ReactJS
+***********************
+    ReactJS is the "javascript" library
+
+    ReactJS library provided by "facebook"
+
+    ReactJS library used to develop the "web applications"
+
+    we will develop ReactJS applications with "JSX" / "TSX"
+
+    "JSX" stands for javascript and xml
+
+    "TSX" stands for Typescript and xml
+
+    ReactJS applications are component based applications
+
+Software Installations
+**********************
+

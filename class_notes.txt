@@ -17,3 +17,140 @@ Introduction to ReactJS
 Software Installations
 **********************
 
+
+creating first react application
+********************************
+
+> npx create-react-app first-app
+
+> cd first-app
+
+> yarn start
+
+
+    The default port no of react application is 3000
+
+
+node_modules
+
+        - it containes libraries
+
+        - these libraries helps to execute the react application
+
+
+public/index.html
+
+        - react starts the execution from index.html file
+
+        - index.html file is main template
+
+        - main template contains dom element (div) whose id is root
+
+
+src
+
+        - used to deploy the components
+
+        - App.js component is the default component
+
+        - App.css
+
+        - App.test.js
+
+src/index.css
+
+        - here we can define global styles
+
+
+src/index.js
+
+    - it is used to register the components
+
+
+*******************************************
+component-app
+           
+            public
+                index.html
+           
+            src
+              First.js
+              First.css
+
+              index.js
+*******************************************
+
+
+***************************************************
+components-app
+            public
+               index.html
+
+            src
+                Comp1.js
+                Comp2.js
+                Comp3.js
+                Main.js
+
+                index.css
+
+                index.js
+***************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,197 @@
+State Management
+****************
+
+        React applications are component based applications
+
+        we can create more than one component
+
+        we can provide communication between components with the help of "state & props"
+
+        if application size is small, then communication between components is eazy with the help of state & props.
+
+        while increasing the application size communication between components is difficult with state & props
+
+        we will solve the above complexity with "State Management"
+
+
+Terminology
+***********
+
+1) dispatch
+
+2) Actions
+
+3) reducer
+
+4) store
+
+5) initial state
+
+6) state
+
+7) subscribe
+
+        sending the request we can call dispatch
+
+        application requirements called as Actions
+
+        application business logic called as reducer
+
+        reducer & initial state we must deploy into store itself
+
+        application default output called as initial state
+
+        application final output called as state
+
+        receiving the "state" from store to component called as subscription
+
+
+to implement state Management we must use 3rd party libraries
+
+
+1) redux
+
+2) thunk
+
+3) saga
+
+
+redux library used to create the redux architecture
+
+thunk library used to moniter the actions
+
+saga library used to manipulate the actions
+
+
+we will download above libraries with the help of "yarn" tool.
+
+
+
+State Management with Rest API call
+***********************************
+
+1) create the react application
+
+
+2) download the node modules
+
+                1)redux
+
+                2)react-redux
+
+                3)redux-thunk
+
+                4)axios
+
+
+3) create the contants (variables)
+
+
+4) create the actions
+
+
+5) create the reducer
+
+
+6) create the store
+
+
+7) perform dispatch and subscribe from component
+
+
+=> create the react application
+
+> npx create-react-app customers-app
+
+=> download the node modules
+
+
+=> create the constants
+
+        ****************************************
+        customers-app
+                    src
+                      types
+                         customersConstants.js
+        ****************************************
+
+        finally following constants are ready
+
+        1) CUSTOMERS_LIST
+
+        2) CUSTOMERS_LIST_SUCCESS
+
+        3) CUSTOMERS_LIST_FAIL
+
+
+=> create the actions
+
+        ****************************************************
+        customers-app
+                   src
+                     actions
+                       customersActions.js
+        ***************************************************
+
+
+
+=> create the reducer
+
+        ******************************************************
+        customers-app
+                    src
+                      reducer
+                        customersReducer.js
+        *****************************************************
+
+
+=> create the store, and deploy the reducer, and make "store" availability "App" component
+
+        index.js
+
+
+=> perform dispatch and subscribe in App component
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

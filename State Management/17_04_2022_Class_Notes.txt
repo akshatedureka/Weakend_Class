@@ -1,0 +1,417 @@
+1) create the account with mongodb database
+
+        - mongodb is "NoSQL" database
+
+        - mongodb supports "JSON"
+
+        - mongodb is "light" weight database
+
+        - mongodb follows the "mongodb" protocol
+
+        - mongodb by default running on "27017" port
+
+        - mongodb provides "cloud" environment in the form of a "mongodb atlas"
+
+
+                        SQL                                 NoSQL
+
+        Ex.
+                Oracle                                  MongoDB
+                MySQL                                   CassandraDB
+                SQLServer
+
+
+                tables                                  collections
+
+
+                databases                               databases
+
+
+                rows                                    document
+
+
+                primary key                             _id
+
+
+database details :
+
+            database name : my_db
+
+            collection name : login_details
+
+            uname : admin
+
+            password : admin
+
+            URL : mongodb+srv://admin:admin@workshop.ymw1c.mongodb.net/my_db?retryWrites=true&w=majority
+
+
+
+
+2) create the rest api (POST) using NodeJS
+
+        NodeJS is "backend" technology
+
+        NodeJS behaves like "server"
+
+        NodeJS applications we will develop with "javascript"
+
+        NodeJS supports "modules"
+
+modules
+*******
+1) mongodb
+
+        "mongodb" is the node "module"
+
+        this module used to connect to "MongoDB" database.
+
+
+2) express
+
+        "express" module used to create rest api's
+
+        Ex.
+                GET
+                POST
+                PUT
+                DELETE
+                ---
+                ---
+                ---
+                ---
+
+3) cors
+
+        "cors" library used to enable ports communication
+
+
+
+MiniProject
+***********
+
+1) create the AWS Account
+
+
+2) deploy images to s3 bucket
+
+        name of the bucket : wsbucketex
+
+                                deployed 6 images
+
+        bucket policy   (permissions)
+        *************
+
+        {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::wsbucketex/*"
+            ]
+        }
+    ]
+}
+
+
+        https://wsbucketex.s3.ap-south-1.amazonaws.com/shirt1.jpg
+
+        https://wsbucketex.s3.ap-south-1.amazonaws.com/shirt2.jpg
+
+        https://wsbucketex.s3.ap-south-1.amazonaws.com/shirt3.jpg
+
+        https://wsbucketex.s3.ap-south-1.amazonaws.com/pant1.jpg
+
+        https://wsbucketex.s3.ap-south-1.amazonaws.com/pant2.jpg
+
+        https://wsbucketex.s3.ap-south-1.amazonaws.com/pant3.jpg
+
+
+3) store above images path to products collection
+
+        database name : my_db
+
+        collection name : products
+
+        user name : admin
+
+        password : admin
+
+        url : mongodb+srv://admin:admin@workshop.ymw1c.mongodb.net/my_db?retryWrites=true&w=majority
+
+
+
+4) create the backend application
+
+
+5) host backend application to aws server
+
+        => push code to github repository
+
+                        name : workshop_backend
+
+
+        => create application in "aws" server
+
+                ElasticBeanStalk
+
+                        name : workshop_backend
+
+        => implement CI/CD process
+
+                CodePipeline
+
+
+        => get cloud url from ElasticBeanStalk
+
+
+
+
+
+
+
+=> http://localhost:8080/login
+
+        POST Request
+
+        header
+             token : abc123
+
+        body
+             uname
+             upwd
+
+
+
+
+1) start node server
+
+
+2) test rest api with Postman
+
+        http://localhost:8080/login
+
+3) create the react application
+
+        > npx create-react-app login-app-state-management
+
+4) download libraries
+
+        1) redux
+
+        2) react-redux
+
+        3) redux-thunk
+
+        4) axios
+
+
+5) create the constants
+
+        ***********************************************************
+        login-app-state-management
+                                src
+                                  constants
+                                        loginConstants.js
+        ***********************************************************
+                finally follwing constants are ready
+
+                1) LOGIN
+
+                2) LOGIN_SUCCESS
+
+                3) LOGIN_FAIL
+
+
+
+6) create actions
+
+        ****************************************************************
+        login-app-state-management
+                                src
+                                 actions
+                                   loginActions.js
+        ***************************************************************
+
+                finally "loginAction" is ready
+
+
+
+
+7) create the reducer
+
+        ********************************************************************
+        login-app-state-management
+                                src
+                                  reducer
+                                    loginReducer.js
+        ********************************************************************
+
+
+
+8) create the store, deploy the reducer and make store availability to App Component
+
+        index.js
+
+
+9) perform dispatch and subscribe in App Component
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
